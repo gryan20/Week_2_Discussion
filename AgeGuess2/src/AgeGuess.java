@@ -24,7 +24,9 @@ public class AgeGuess {
 		guess = scan.nextInt();
 		
 		
-		while (guess != age) {
+		while (guess != age) 
+		{
+			System.out.println("You Guessed Wrong");
 			if (guess < age)
 				{ System.out.println("Older");}
 			else if (guess > age) 
